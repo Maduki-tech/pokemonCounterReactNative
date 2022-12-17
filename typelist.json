@@ -1,0 +1,74 @@
+{
+    "fire": {
+        "weakAgainst": ["water", "ground", "rock"],
+        "strongAgainst": ["grass", "ice", "bug", "steel"]
+    },
+    "water": {
+        "weakAgainst": ["grass", "electric"],
+        "strongAgainst": ["fire", "ground", "rock"]
+    },
+    "grass": {
+        "weakAgainst": ["fire", "ice", "poison", "flying", "bug"],
+        "strongAgainst": ["water", "ground", "rock"]
+    },
+    "electric": {
+        "weakAgainst": ["ground"],
+        "strongAgainst": ["water", "flying"]
+    },
+    "ice": {
+        "weakAgainst": ["fire", "fighting", "rock", "steel"],
+        "strongAgainst": ["grass", "ground", "flying", "dragon"]
+    },
+    "fighting": {
+        "weakAgainst": ["flying", "psychic", "fairy"],
+        "strongAgainst": ["normal", "ice", "rock", "dark", "steel"]
+    },
+    "poison": {
+        "weakAgainst": ["ground", "psychic"],
+        "strongAgainst": ["grass", "fairy"]
+    },
+    "ground": {
+        "weakAgainst": ["water", "grass", "ice"],
+        "strongAgainst": ["fire", "electric", "poison", "rock", "steel"]
+    },
+    "flying": {
+        "weakAgainst": ["electric", "ice", "rock"],
+        "strongAgainst": ["grass", "fighting", "bug"]
+    },
+    "psychic": {
+        "weakAgainst": ["bug", "ghost", "dark"],
+        "strongAgainst": ["fighting", "poison"]
+    },
+    "bug": {
+        "weakAgainst": ["fire", "flying", "rock"],
+        "strongAgainst": ["grass", "psychic", "dark"]
+    },
+    "rock": {
+        "weakAgainst": ["water", "grass", "fighting", "ground", "steel"],
+        "strongAgainst": ["fire", "ice", "flying", "bug"]
+    },
+    "ghost": {
+        "weakAgainst": ["ghost", "dark"],
+        "strongAgainst": ["psychic", "ghost"]
+    },
+    "dragon": {
+        "weakAgainst": ["ice", "dragon", "fairy"],
+        "strongAgainst": ["dragon"]
+    },
+    "dark": {
+        "weakAgainst": ["fighting", "bug", "fairy"],
+        "strongAgainst": ["psychic", "ghost"]
+    },
+    "steel": {
+        "weakAgainst": ["fire", "fighting", "ground"],
+        "strongAgainst": ["ice", "rock", "fairy"]
+    },
+    "fairy": {
+        "weakAgainst": ["poison", "steel"],
+        "strongAgainst": ["fighting", "dragon", "dark"]
+    },
+    "normal": {
+        "weakAgainst": ["Rock", "Steel", "Ghost"],
+        "strongAgainst": ["Ghost", "Rock", "Steel"]
+    }
+}
