@@ -1,73 +1,91 @@
 {
     "fire": {
+		"color": "red",
         "weakAgainst": ["water", "ground", "rock"],
         "strongAgainst": ["grass", "ice", "bug", "steel"]
     },
     "water": {
+		"color": "blue",
         "weakAgainst": ["grass", "electric"],
         "strongAgainst": ["fire", "ground", "rock"]
     },
     "grass": {
+		"color": "green",
         "weakAgainst": ["fire", "ice", "poison", "flying", "bug"],
         "strongAgainst": ["water", "ground", "rock"]
     },
     "electric": {
+		"color": "yellow",
         "weakAgainst": ["ground"],
         "strongAgainst": ["water", "flying"]
     },
     "ice": {
+		"color": "white",
         "weakAgainst": ["fire", "fighting", "rock", "steel"],
         "strongAgainst": ["grass", "ground", "flying", "dragon"]
     },
     "fighting": {
+		"color": "orange",
         "weakAgainst": ["flying", "psychic", "fairy"],
         "strongAgainst": ["normal", "ice", "rock", "dark", "steel"]
     },
     "poison": {
+		"color": "purple",
         "weakAgainst": ["ground", "psychic"],
         "strongAgainst": ["grass", "fairy"]
     },
     "ground": {
+		"color": "brown",
         "weakAgainst": ["water", "grass", "ice"],
         "strongAgainst": ["fire", "electric", "poison", "rock", "steel"]
     },
     "flying": {
+		"color": "grey",
         "weakAgainst": ["electric", "ice", "rock"],
         "strongAgainst": ["grass", "fighting", "bug"]
     },
     "psychic": {
+		"color": "pink",	
         "weakAgainst": ["bug", "ghost", "dark"],
         "strongAgainst": ["fighting", "poison"]
     },
     "bug": {
+		"color": "green",
         "weakAgainst": ["fire", "flying", "rock"],
         "strongAgainst": ["grass", "psychic", "dark"]
     },
     "rock": {
+		"color": "grey",
         "weakAgainst": ["water", "grass", "fighting", "ground", "steel"],
         "strongAgainst": ["fire", "ice", "flying", "bug"]
     },
     "ghost": {
+		"color": "black",
         "weakAgainst": ["ghost", "dark"],
         "strongAgainst": ["psychic", "ghost"]
     },
     "dragon": {
+		"color": "purple",
         "weakAgainst": ["ice", "dragon", "fairy"],
         "strongAgainst": ["dragon"]
     },
     "dark": {
+		"color": "black",
         "weakAgainst": ["fighting", "bug", "fairy"],
         "strongAgainst": ["psychic", "ghost"]
     },
     "steel": {
+		"color": "grey",
         "weakAgainst": ["fire", "fighting", "ground"],
         "strongAgainst": ["ice", "rock", "fairy"]
     },
     "fairy": {
+		"color": "pink",
         "weakAgainst": ["poison", "steel"],
         "strongAgainst": ["fighting", "dragon", "dark"]
     },
     "normal": {
+		"color": "white",
         "weakAgainst": ["Rock", "Steel", "Ghost"],
         "strongAgainst": ["Ghost", "Rock", "Steel"]
     }
